@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffe</title>
+    <script type="text/javascript" src="./index.js" defer=""></script>
+    <link rel="stylesheet" href="./index.css">
+    <script type="text/javascript" src="js/index.js" defer=""></script>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/contato.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>Coffee House</h1>
+      <nav id="pags">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <div class="container">
+        <div class="colums is-centered">
+          <div class="colmn is-half">
+            <h1 class="title">Formulário de Contato</h1>
+            <form action="enviar.php" method="post">
+              <div class="field">
+                <label class="label">Nome</label>
+                <div class="control">
+                  <input type="text" name="nome" placeholder="Seu Nome">
+                </div>
+              </div>
+              <div class="field">
+                <label class="label">E-mail*</label>
+                <div class="control">
+                  <input type="Email" name="email" placeholder="Seu Melhor E-mail">
+                </div>
+              </div>
+              <div class="field">
+                <label class="label">Assunto*</label>
+                <div class="control">
+                  <div class="Select">
+                    <select name="Assunto">
+                      <option>Reportar Erro</option>
+                      <option>Melhoria do Site</option>
+                      <option>Outro</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="field">
+                <label class="label">Mensagem*</label>
+                <div class="control">
+                  <textarea name="Mensagem" class="textarea" placeholder="Deixe Sua Mensagem" maxlength="2000"></textarea>
+                </div>
+              </div>
+              <div class="field">
+                <button type="submit" class="enviar">Enviar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>©Copyright by Sabrina de oliveira.</p>
+    </footer>
+  </body>
+</html>

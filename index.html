@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffe</title>
+    <script type="text/javascript" src="./index.js" defer=""></script>
+    <link rel="stylesheet" href="./index.css">
+    <script type="text/javascript" src="js/index.js" defer=""></script>
+    <link rel="stylesheet" href="css/index.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+      <h1>Coffee House</h1>
+      <nav id="pags">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="foto">
+      <h4>Menu</h4>
+      <div class="image">
+        <img src="_imagens/menu.png" center no-repeat id="cafe"/>
+      </div>
+    </section>
+    <section id="cardapio">
+      <div id="um">
+        <h2>Café</h2>
+        <ul>
+          <li onmousemove="imgExpresso(1)" onmouseout="imgExpresso(2)">
+            <h3>Expresso</h3>
+            <strong class="preco">7,50</strong>
+          </li>
+          <li onmousemove="imgPingado(1)" onmouseout="imgPingado(2)">
+            <h3>Pingado</h3>
+            <strong class="preco">7,50</strong>
+          </li>
+          <li onmousemove="imgCappuccino(1)" onmouseout="imgCappuccino(2)">
+            <h3>Cappuccino</h3>
+            <strong class="preco">9,00</strong>
+          </li>
+        </ul>
+      </div>
+      <div id="dois">
+        <h2>Chocolate</h2>
+        <ul>
+          <li onmousemove="imgQuente(1)" onmouseout="imgQuente(2)">
+            <h3>Quente</h3>
+            <p class="detalhes">(Chocolate especial, leite cremoso, e açúcar)</p>
+            <strong class="preco">9,00</strong>
+          </li>
+          <li onmousemove="imgFrio(1)" onmouseout="imgFrio(2)">
+            <h3>Gelado</h3>
+            <p class="detalhes">(Shake de leite com chocolate especial, açúcar e ovomaltine)</p>
+            <strong class="preco">9,00</strong>
+          </li>
+        </ul>
+      </div>
+      <div id="tres">
+        <h2>Diversos</h2>
+        <ul>
+          <li onmousemove="imgAguaDeCoco(1)" onmouseout="imgAguaDeCoco(2)">
+            <h3>Água de Coco</h3>
+            <strong class="preco">9,00</strong>
+          </li>
+          <li onmousemove="imgChaQuente(1)" onmouseout="imgChaQuente(2)">
+            <h3>Chá Quente</h3>
+            <p class="detalhes">(Cidreira, erva-doce, hortelâ, mate ou verde)</p>
+            <strong class="preco">4,00</strong>
+          </li>
+          <li onmousemove="imgChaFrio(1)" onmouseout="imgChaFrio(2)">
+            <h3>Chá Frio</h3>
+            <p class="detalhes">(Cidreira, erva-doce, hortelâ, mate ou verde)</p>
+            <strong class="preco">4,00</strong>
+          </li>
+        </ul>
+      </div>
+      <div id="quatro">
+        <h2>Refrigerantes</h2>
+        <ul>
+          <li onmousemove="imgLata(1)" onmouseout="imgLata(2)">
+            <h3>Lata 350ml</h3>
+            <strong class="preco">5,00</strong>
+          </li>
+          <li onmousemove="imgMiniLata(1)" onmouseout="imgMiniLata(2)">
+            <h3>Mini Lata 220ml</h3>
+            <strong class="preco">3,50</strong>
+          </li>
+          <li onmousemove="imgPet(1)" onmouseout="imgPet(2)">
+            <h3>Pet 600ml</h3>
+            <strong class="preco">8,80</strong>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <footer>
+      <p>©Copyright by Sabrina de oliveira.</p>
+    </footer>
+
+  </body>
+
+</html>
